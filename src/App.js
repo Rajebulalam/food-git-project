@@ -8,9 +8,12 @@ import Placeholder from './Pages/Placeholder/Placeholder';
 import Order from './Pages/Order/Order';
 import MenuItem from './Pages/MenuItem/MenuItem';
 import Cart from './Pages/Cart/Cart';
+import Header from './Pages/Shared/Header/Header';
+import Footer from './Pages/Shared/Footer/Footer';
 function App() {
   return (
     <div className="container">
+      <Header></Header>
       <Routes>
         <Route path='/' element={<HomePage></HomePage>}></Route>
         <Route path='/cart' element={<Cart></Cart>}></Route>
@@ -20,6 +23,7 @@ function App() {
         <Route path='/order' element={<Order></Order>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
