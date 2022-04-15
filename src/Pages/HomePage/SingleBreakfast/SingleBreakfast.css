@@ -1,0 +1,21 @@
+.singleBreakfast{
+    text-align: center;
+    padding: 20px;
+}
+.singleBreakfast img{
+    max-width: 200px;
+    width: 100%;
+}
+.singleBreakfast h2{
+    margin-bottom: 0;
+}
+.singleBreakfast p{
+    margin: 8px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #aaa;
+}
+.singleBreakfast:hover{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+}

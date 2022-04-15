@@ -1,18 +1,22 @@
-.banner-container{
+.banner-container {
+    padding: 0 80px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url('https://i.ibb.co/grRJfqS/bannerbackground.png');
+    background-image: url('https://i.ibb.co/FWsZR8h/Screenshot-2022-04-15-204419.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: 100% 100%;
-    height: 350px;
+    height: 400px;
 }
-.banner-container div{
+
+.banner-container div {
     position: relative;
 }
-.banner-container h2{
+
+.banner-container h2 {
     margin-top: 0;
     margin-bottom: 10px;
     color: #191919;
@@ -20,7 +24,8 @@
     font-weight: 900;
 
 }
-.banner-container input{
+
+.banner-container input {
     max-width: 400px;
     width: 100%;
     padding: 12px;
@@ -30,7 +35,8 @@
     font-size: 16px;
     outline: none;
 }
-.banner-container button{
+
+.banner-container button {
     position: absolute;
     right: 20px;
     bottom: 0;
@@ -39,11 +45,11 @@
     border-radius: 30px;
     padding: 14px 25px;
     background-color: #F91944;
-    color : #fff;
+    color: #fff;
     font-size: 14px;
     font-weight: 600;
 }
-.banner-container button:hover{
+
+.banner-container button:hover {
     background-color: #d80932;
 }
-.banner-container input{}

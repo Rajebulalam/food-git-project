@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "img": "https://i.ibb.co/v1brwtc/breakfast1.png",
+        "name": "Healthy Meal Plan",
+        "text": "Eat healthy food to be healthy",
+        "price": 23.99
+    },
+    {
+        "id": "2",
+        "img": "https://i.ibb.co/1MxtxCZ/breakfast2.png",
+        "name": "Fried Chicken",
+        "text": "Eat healthy food to be healthy",
+        "price": 27.99
+    },
+    {
+        "id": "3",
+        "img": "https://i.ibb.co/CVjbVdk/breakfast3.png",
+        "name": "Tarragon Rubbed Salmon",
+        "text": "Eat healthy food to be healthy",
+        "price": 13.99
+    },
+    {
+        "id": "4",
+        "img": "https://i.ibb.co/QPHCXGW/breakfast4.png",
+        "name": "Indian Breakfast",
+        "text": "Eat healthy food to be healthy",
+        "price": 19.99
+    },
+    {
+        "id": "5",
+        "img": "https://i.ibb.co/1MxtxCZ/breakfast2.png",
+        "name": "Healthy Meal Plan",
+        "text": "Eat healthy food to be healthy",
+        "price": 23.99
+    },
+    {
+        "id": "6",
+        "img": "",
+        "name": "Beef Steak",
+        "text": "Eat healthy food to be healthy",
+        "price": 29.99
+    }
+]

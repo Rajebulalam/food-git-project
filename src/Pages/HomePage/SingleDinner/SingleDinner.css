@@ -1,0 +1,25 @@
+.singleDinner {
+    text-align: center;
+    padding: 20px;
+}
+
+.singleDinner img {
+    max-width: 200px;
+    width: 100%;
+}
+
+.singleDinner h2 {
+    margin-bottom: 0;
+}
+
+.singleDinner p {
+    margin: 8px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #aaa;
+}
+
+.singleDinner:hover {
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 5px;
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "img": "",
+        "name": "Healthy Meal Plan",
+        "text": "Eat healthy food to be healthy",
+        "price": 23
+    },
+    {
+        "id": "2",
+        "img": "",
+        "name": "Fried Chicken",
+        "text": "Eat healthy food to be healthy",
+        "price": 27
+    },
+    {
+        "id": "3",
+        "img": "",
+        "name": "Tarragon Rubbed Salmon",
+        "text": "Eat healthy food to be healthy",
+        "price": 13
+    },
+    {
+        "id": "4",
+        "img": "",
+        "name": "Indian Lunch",
+        "text": "Eat healthy food to be healthy",
+        "price": 19
+    },
+    {
+        "id": "5",
+        "img": "",
+        "name": "Healthy Meal Plan",
+        "text": "Eat healthy food to be healthy",
+        "price": 23
+    },
+    {
+        "id": "6",
+        "img": "",
+        "name": "Beef Steak",
+        "text": "Eat healthy food to be healthy",
+        "price": 29
+    }
+]
