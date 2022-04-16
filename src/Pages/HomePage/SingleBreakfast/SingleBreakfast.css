@@ -5,6 +5,7 @@
 .singleBreakfast img{
     max-width: 200px;
     width: 100%;
+    cursor: pointer;
 }
 .singleBreakfast h2{
     margin-bottom: 0;

@@ -2,7 +2,8 @@ import React from 'react';
 import './SingleBreakfast.css';
 
 const SingleBreakfast = ({ single }) => {
-    const {img, name, text, price} = single;
+    const { img, name, text, price } = single;
+
     return (
         <div className='singleBreakfast'>
             <img src={img} alt="food-img" />

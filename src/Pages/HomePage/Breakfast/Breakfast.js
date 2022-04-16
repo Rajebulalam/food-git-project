@@ -1,16 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import UseBreakfast from '../../../Hooks/UseBreakfast';
 import SingleBreakfast from '../SingleBreakfast/SingleBreakfast';
 import './Breakfast.css';
 
 const Breakfast = () => {
 
-    const [breakfast, setBreakfast] = useState([]);
-
-    useEffect(() => {
-        fetch('breakfast.json')
-            .then(res => res.json())
-            .then(data => setBreakfast(data))
-    }, [])
+    const [breakfast, setBreakfast] = UseBreakfast();
 
     return (
         <div className='breakfast-container'>

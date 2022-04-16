@@ -17,7 +17,7 @@
     text-decoration: none;
 }
 .footer-child1 a:hover{
-    color: blue;
+    color: rgba(255, 255, 255, 0.658);
 }
 .footer-child2{
     display: grid;
@@ -28,4 +28,3 @@
 .footer-child2{
     color: #fff;
 }
-.footer-child2 p{}

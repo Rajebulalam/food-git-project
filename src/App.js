@@ -13,16 +13,17 @@ import Footer from './Pages/Shared/Footer/Footer';
 import Breakfast from './Pages/HomePage/Breakfast/Breakfast';
 import Lunch from './Pages/HomePage/Lunch/Lunch';
 import Dinner from './Pages/HomePage/Dinner/Dinner';
-import Features from './Pages/HomePage/Features/Features';
 function App() {
   return (
     <div className="container">
       <Header></Header>
-      <HomePage></HomePage>
       <Routes>
-        <Route path='/' element={<Breakfast></Breakfast>}></Route>
-        <Route path='/lunch' element={<Lunch></Lunch>}></Route>
-        <Route path='/dinner' element={<Dinner></Dinner>}></Route>
+        <Route path='/' element={<HomePage></HomePage>}>
+          <Route path='/' element={<Breakfast></Breakfast>}></Route>
+          <Route path='/breakfast/:id' element={<MenuItem></MenuItem>}></Route>
+          <Route path='/lunch' element={<Lunch></Lunch>}></Route>
+          <Route path='/dinner' element={<Dinner></Dinner>}></Route>
+        </Route>
         <Route path='/cart' element={<Cart></Cart>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
         <Route path='/menuitem' element={<MenuItem></MenuItem>}></Route>
@@ -30,7 +31,6 @@ function App() {
         <Route path='/order' element={<Order></Order>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
-      <Features></Features>
       <Footer></Footer>
     </div>
   );

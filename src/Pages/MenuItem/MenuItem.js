@@ -1,6 +1,6 @@
-import React from 'react';
-
 const MenuItem = () => {
+
+
     return (
         <div>
             <h2>Menu Item</h2>

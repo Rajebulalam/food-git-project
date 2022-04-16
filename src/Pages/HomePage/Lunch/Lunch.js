@@ -1,16 +1,10 @@
-import { useEffect, useState } from 'react';
 import './Lunch.css';
 import SingleLunch from '../SingleLunch/SingleLunch';
+import UseLunch from '../../../Hooks/UseLunch';
 
 const Lunch = () => {
 
-    const [lunch, setLunch] = useState([]);
-
-    useEffect(() => {
-        fetch('lunch.json')
-            .then(res => res.json())
-            .then(data => setLunch(data))
-    }, [])
+    const [lunch, setLunch] = UseLunch();
 
     return (
         <div className='lunch-container'>
