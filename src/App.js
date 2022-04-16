@@ -24,6 +24,7 @@ function App() {
           <Route path='/lunch' element={<Lunch></Lunch>}></Route>
           <Route path='/dinner' element={<Dinner></Dinner>}></Route>
         </Route>
+        <Route path='/home' element={<HomePage></HomePage>}></Route>
         <Route path='/cart' element={<Cart></Cart>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
         <Route path='/menuitem' element={<MenuItem></MenuItem>}></Route>

@@ -29,9 +29,13 @@
 .login-btn{
     background-color: #F91944;
     color : #fff;
+    cursor: pointer;
 }
 .link{
     color: #F91944;
     text-decoration: none;
     font-weight: 500;
+}
+.danger{
+    color: #F91944;
 }
